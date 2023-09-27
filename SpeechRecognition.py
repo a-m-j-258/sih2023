@@ -23,8 +23,7 @@ for ogg_file in ogg_files:
 recognizer = sr.Recognizer()
 
 # List of WAV audio file names
-wav_files = ["audiotest.wav", "audiotest1.wav", "audiotest2.wav"]  # Add more file names as needed
-
+wav_files = [t0.wav","t1.wav","t2.wav","t3.wav","t4.wav","t5.wav","t6.wav","t7.wav","t8.wav","t9.wav","t10.wav","t11.wav","t12.wav","t13.wav","t14.wav","t15.wav","t16.wav","t17.wav","t18.wav","t19.wav","t20.wav","t21.wav","t22.wav","t23.wav","t24.wav","t25.wav","t26.wav","t27.wav","t28.wav","t29.wav","t30.wav"]
 # Create a folder to store the transcriptions
 if not os.path.exists('transcriptions'):
     os.mkdir('transcriptions')
