@@ -64,7 +64,7 @@ print("Transcription process completed.")
 import pandas as pd
 
 # List of transcribed text
-transcribed_text = ["Transcribed text 1", "Transcribed text 2", "Transcribed text 3","Transcribed text 4"]  # Replace with your transcribed text
+transcribed_text = ["Transcribed text 1", "Transcribed text 2", "Transcribed text 3","Transcribed text 4","Transcribed text 5","Transcribed text 6","Transcribed text 7","Transcribed text 8","Transcribed text 9","Transcribed text 10","Transcribed text 11","Transcribed text 12","Transcribed text 13","Transcribed text 14","Transcribed text 15","Transcribed text 16","Transcribed text 17","Transcribed text 18","Transcribed text 19","Transcribed text 20","Transcribed text 21","Transcribed text 22","Transcribed text 23","Transcribed text 24","Transcribed text 25","Transcribed text 26","Transcribed text 27","Transcribed text 28","Transcribed text 29","Transcribed text 30","Transcribed text 31"]  
 
 # Create a DataFrame
 df = pd.DataFrame({'Transcribed Text': transcribed_text})
