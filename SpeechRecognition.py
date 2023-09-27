@@ -58,3 +58,19 @@ for wav_file in wav_files:
 
 print("Transcription process completed.")
 
+
+
+
+
+import pandas as pd
+
+# List of transcribed text
+transcribed_text = ["Transcribed text 1", "Transcribed text 2", "Transcribed text 3","Transcribed text 4"]  # Replace with your transcribed text
+
+# Create a DataFrame
+df = pd.DataFrame({'Transcribed Text': transcribed_text})
+
+# Save the DataFrame to a CSV file
+df.to_csv('transcribed_text.csv', index=False)
+
+
