@@ -1,4 +1,5 @@
 # Keywords to search for
+#keywords = ["", "", "maintenance","shelf-life", "allergy", "pigment", "consistency", "packaging","dial", "design", "battery", "strap","display", "sound quality", "durability","battery life", "processor", "camera quality", "display", "sound quality", "memory", "charging port","battery life", "processor", "display", "memory", "sound quality", "charging port", "usb port", "wifi card"]
 keywords=["dial","car","tv","cream","phone","laptop"]
 # Initialize a dictionary to store keyword counts
 keyword_counts = {keyword: 0 for keyword in keywords}
@@ -21,21 +22,4 @@ else:
     repair_needed = "No specific part needs repairing."
 
 # Print the keyword counts and repair conclusion
-print("Keyword Counts:")
-for keyword, count in keyword_counts.items():
-    print(f"{keyword}: {count}")
-
-# Create an array to store sentences and append the repair conclusion
-sentences = []
-
-for keyword, count in keyword_counts.items():
-    sentences.append(f"{keyword}: {count}")
-
-# Append the conclusion to the sentences array
-sentences.append("\nConclusion:")
-sentences.append(repair_needed)
-
-# Print the sentences array
-for sentence in sentences:
-    print(sentence)
-    #sent=sentence
+print(repair_needed)
