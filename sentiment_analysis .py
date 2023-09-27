@@ -37,4 +37,5 @@ def categorize_sentiment(score):
 
 df["Sentiment"] = df["Sentiment Score"].apply(categorize_sentiment)
 
+print(df[["Transcribed Text", "Sentiment Score", "Sentiment"]])
 
