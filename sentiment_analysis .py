@@ -16,3 +16,14 @@ def preprocess_text(text):
     return " ".join(words)
 
 df["Processed Text"] = df["Transcribed Text"].apply(preprocess_text)
+
+
+
+from textblob import TextBlob
+
+def analyze_sentiment(text):
+    analysis = TextBlob(text)
+    return analysis.sentiment.polarity  # Return the polarity score
+
+df["Sentiment Score"] = df["Processed Text"].apply(analyze_sentiment)
+
