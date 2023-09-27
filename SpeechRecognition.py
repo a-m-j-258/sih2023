@@ -4,7 +4,7 @@ from pydub import AudioSegment
 import os
 
 # List of OGG audio file names
-ogg_files = ["audiotest.ogg", "audiotest1.ogg", "audiotest2.ogg","audiotest3.ogg"]  # Add more file names as needed
+ogg_files = ["t0.ogg","t1.ogg","t2.ogg","t3.ogg","t4.ogg","t5.ogg","t6.ogg","t7.ogg","t8.ogg","t9.ogg","t10.ogg","t11.ogg","t12.ogg","t13.ogg","t14.ogg","t15.ogg","t16.ogg","t17.ogg","t18.ogg","t19.ogg","t20.ogg","t21.ogg","t22.ogg","t23.ogg","t24.ogg","t25.ogg","t26.ogg","t27.ogg","t28.ogg","t29.ogg","t30.ogg",]  
 
 # Loop through each OGG file and convert to WAV
 for ogg_file in ogg_files:
