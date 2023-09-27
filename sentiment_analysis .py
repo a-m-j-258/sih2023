@@ -27,3 +27,14 @@ def analyze_sentiment(text):
 
 df["Sentiment Score"] = df["Processed Text"].apply(analyze_sentiment)
 
+def categorize_sentiment(score):
+    if score > 0:
+        return "Positive"
+    elif score <= 0:
+        return "Negative"
+    else:
+        return "Neutral"
+
+df["Sentiment"] = df["Sentiment Score"].apply(categorize_sentiment)
+
+
