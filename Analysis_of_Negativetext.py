@@ -1,6 +1,5 @@
 # Keywords to search for
-keywords = ["mileage", "engine", "maintenance","shelf-life", "allergy", "pigment", "consistency", "packaging","dial", "design", "battery", "strap","display", "sound quality", "durability","battery life", "processor", "camera quality", "display", "sound quality", "memory", "charging port","battery life", "processor", "display", "memory", "sound quality", "charging port", "usb port", "wifi card"]
-
+keywords=["dial","car","tv","cream","phone","laptop"]
 # Initialize a dictionary to store keyword counts
 keyword_counts = {keyword: 0 for keyword in keywords}
 
